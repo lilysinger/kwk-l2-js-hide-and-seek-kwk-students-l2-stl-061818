@@ -1,6 +1,6 @@
 //Code your solution here
 function getFirstSelector(selector){
-  return document.querySelector(selector)
+  return document.querySelector(selector);
 }
 
 function nestedTarget(){
@@ -9,7 +9,7 @@ function nestedTarget(){
 }
 
 function increasedRankBy(n){
-  return
+  return document.ranked-list().parseInt()
 }
 
 function deepestChild(){
