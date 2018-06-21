@@ -9,7 +9,7 @@ function nestedTarget(){
 }
 
 function increasedRankBy(n){
-  return document.ranked-list().parseInt();
+  return document.getElementById('.rank-list')().parseInt();
 }
 
 function deepestChild(){
