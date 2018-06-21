@@ -9,10 +9,11 @@ function nestedTarget(){
 }
 
 function increasedRankBy(n){
-   const list = document.querySelectorAll('ul.rank-list li'))
-  document.getElementById('app').querySelectorAll('ul.rank-list li');
+   const list = document.querySelectorAll('ul.rank-list li')
+  for (let i = 0; i < lis.length; i++){
+  lis[i].innerHTML = (i + 1).toString()
 }
-
+}
 function deepestChild(){
   return document.querySelector('#grand-node div div div div')
 }
